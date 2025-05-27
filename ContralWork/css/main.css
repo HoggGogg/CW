@@ -8,7 +8,7 @@ body{
     width: 1440px;
     min-height: 100vh;
     display: flex;
-    padding: 0 95px 0 95px;
+    padding: 0 100px 0 100px;
     font-family: "Plus Jakarta Sans", sans-serif;
     flex-wrap: wrap;
 }
@@ -49,7 +49,8 @@ body{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin: 5px 0 0 50px;
+    margin-left: 40px;
+    padding-right: 10px;
 
 }
 .nav__button{
@@ -186,6 +187,12 @@ input[type=submit]{
     text-transform: capitalize;
     margin-right: 35px;
 }
+.section__two .category img{
+    margin: 8px 0 5px 10px;
+    width: 8px;
+    height: 16px;
+}
+
 .cards{
     margin: 20px 95px 68px 95px;
     height: 280px;
@@ -300,6 +307,13 @@ main{
     line-height: normal;
     text-transform: capitalize;
 }
+.article_cat p img{
+    margin: 8px 0 5px 10px;
+    width: 8px;
+    height: 16px;
+}
+
+
 .card_art{
     display: flex;
     align-items: flex-start;
